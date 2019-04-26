@@ -144,3 +144,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+hr {
+    border-style: dashed;
+}
+
+.item {
+  width: 100%
+}
+
+.contain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain>div {
+  flex: 0 50%;
+  padding: 10px;
+  box-sizing:border-box;
+}
+
+.paragraph {
+    margin:20px;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    float: right;
+}
